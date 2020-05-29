@@ -2,7 +2,7 @@
 
 Working Principle: The primary objective of our project ‘Autonomous Car Braking System’ is to use OpenCv Object Detection tool on the Raspberry Pi interfaced with Rpi Camera for detecting road signs and regulating the car speed
 
-The project will be primarily divided into two real time services which are
+The project will be using Rate Monotonic Scheduling Algorithm and will primarily divided into two real time services which are
 1. Image Processing using OpenCV 
 2. Car Motor Speed Regulation 
 
