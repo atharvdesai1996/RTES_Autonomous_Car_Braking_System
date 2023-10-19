@@ -82,7 +82,7 @@ void *motor_thread(void *args)
 		start = timestamp();          // Start Timestamp to compute capacity
 		syslog(LOG_DEBUG,"In the motor task");
 		
-		if(motor_STOP_flag = 1)
+		if(motor_STOP_flag == 1)
 		{
 			stopmotor();		// Motor stops on short time so speed regulated on Stop sign detection
 			delay(1000);
